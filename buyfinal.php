@@ -9,6 +9,7 @@ if($_SESSION['flag']==1)
     {
         $_SESSION['sub']=$_POST['bookname'];
         $_SESSION['pname']=$_POST['pname'];
+        header("location:final.php");
     }
     ?>
 
